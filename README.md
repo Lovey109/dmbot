@@ -1,2 +1,1 @@
-# dmbot
-Discord Broadcast Bot
+# bot1bc
