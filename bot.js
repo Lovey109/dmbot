@@ -24,7 +24,7 @@ client.on('ready', () => {
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus("dnd");
-  client.user.setActivity(`Free Nitro`, { type: "Watching" });
+  client.user.setActivity(`Watching People!`, { type: "Watching" });
 });
 
 client.login(process.env.BOT_TOKEN);
