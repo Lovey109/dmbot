@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Dracula#0001");
-var prefix = "+";
+var prefix = "^^^^^^";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "mass")) {
@@ -24,7 +24,7 @@ client.on('ready', () => {
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setStatus("dnd");
-  client.user.setActivity(`Join our new server! We got banned.`, { type: "Watching" });
+  client.user.setActivity(`Dm me for payments.`, { type: "Watching" });
 });
 
 client.login(process.env.BOT_TOKEN);
